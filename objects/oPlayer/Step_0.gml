@@ -5,11 +5,13 @@ vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 //diagonal movement
 if(hInput != 0 || vInput != 0){
 	dir = point_direction(0,0,hInput,vInput);
-	hInput = lengthdir_x(spd, dir);
-	vInput = lengthdir_y(spd, dir);
+	moveX = lengthdir_x(spd, dir);
+	moveY = lengthdir_y(spd, dir);
 	
-	x += hInput;
-	y += vInput;
+	scr_collision();//moveX,moveY);
+	
+	x += moveX;
+	y += moveY;
 	
 	image_xscale = 1;
 	//set sprite
@@ -26,3 +28,4 @@ if(hInput != 0 || vInput != 0){
 } else {
 	image_index = 0;
 }
+
