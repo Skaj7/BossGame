@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "330792a1-5c98-49f6-b9eb-fddb26c23a15",
+            "Value": {
+                "id": "945e3215-829a-4c62-b500-25f184904205",
+                "resourcePath": "scripts\\scr_sprite_update\\scr_sprite_update.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "37ea5b5a-02ba-4230-97d7-1561f04763b0",
             "Value": {
                 "id": "6f3baaf1-c452-4605-b138-896cfbbf7f04",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "6a80a834-6250-4645-be85-661426b43230",
+            "Value": {
+                "id": "de8ea6cf-d80d-40ee-8333-566d7ca18435",
+                "resourcePath": "scripts\\player_calculate_state\\player_calculate_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6c925173-c3e8-4531-b187-547e013ee930",
             "Value": {
                 "id": "fc380180-43bc-499a-b946-e271620e6ad4",
@@ -252,6 +268,30 @@
                 "id": "062438ce-9c87-4f16-aa05-f37635419a9a",
                 "resourcePath": "objects\\oGrass\\oGrass.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9c8965cf-378b-4012-bb77-55b8e0362d14",
+            "Value": {
+                "id": "2433e1cb-fd64-43b9-a376-488aeadf1443",
+                "resourcePath": "scripts\\player_move_state\\player_move_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a21df615-cc02-48a8-95c3-9bb73f0a8e4c",
+            "Value": {
+                "id": "aa61cd25-f5c9-4927-b4e5-2efdae634a0a",
+                "resourcePath": "scripts\\scr_input\\scr_input.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a5f4cd7a-802a-4e62-ace1-6e5900ef3d0e",
+            "Value": {
+                "id": "4b3183bf-7dfb-45f0-9e92-72be18bdf89a",
+                "resourcePath": "scripts\\player_idle_state\\player_idle_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -344,7 +384,12 @@
         }
     ],
     "script_order": [
-        "1c4001ab-dfed-40d4-988c-c64adaa125a3"
+        "1c4001ab-dfed-40d4-988c-c64adaa125a3",
+        "330792a1-5c98-49f6-b9eb-fddb26c23a15",
+        "a21df615-cc02-48a8-95c3-9bb73f0a8e4c",
+        "a5f4cd7a-802a-4e62-ace1-6e5900ef3d0e",
+        "9c8965cf-378b-4012-bb77-55b8e0362d14",
+        "6a80a834-6250-4645-be85-661426b43230"
     ],
     "tutorial": ""
 }

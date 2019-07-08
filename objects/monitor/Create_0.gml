@@ -5,5 +5,6 @@ enum playerState{
 	defence,
 	move,
 	recharge,
-	event
+	event,
+	calculate
 }
