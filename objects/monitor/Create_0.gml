@@ -3,6 +3,7 @@ enum playerState{
 	idle,
 	attack,
 	defence,
+	idleDefence,
 	move,
 	recharge,
 	event,

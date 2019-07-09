@@ -1,3 +1,6 @@
+scr_input();
+
+scr_new_state();
+if(state != playerState.idle) return;
+
 image_index = 0;
-show_debug_message("in idle");
-state = playerState.calculate;

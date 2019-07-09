@@ -1,8 +1,8 @@
 {
-    "id": "6a80a834-6250-4645-be85-661426b43230",
+    "id": "b4d99934-f925-47f8-b340-57e9dc9e71ec",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "player_calculate_state",
+    "name": "scr_new_state",
     "IsCompatibility": false,
     "IsDnD": false
 }

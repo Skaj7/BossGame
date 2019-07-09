@@ -1,2 +1,5 @@
-hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
+hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
+defenceFlag = mouse_check_button(mb_right);
+if(defenceFlag) defenceFlag = !mouse_check_button_released(mb_right);
