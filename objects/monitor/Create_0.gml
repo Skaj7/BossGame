@@ -6,6 +6,5 @@ enum playerState{
 	idleDefence,
 	move,
 	recharge,
-	event,
-	calculate
+	event
 }

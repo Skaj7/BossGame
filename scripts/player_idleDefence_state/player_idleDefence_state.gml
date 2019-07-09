@@ -8,6 +8,5 @@ if(state != playerState.idleDefence) {
 
 sprite_index = spr_d_d2;
 image_index = 0;
-
 //defence info
 
