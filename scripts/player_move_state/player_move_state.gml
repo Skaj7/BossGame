@@ -5,8 +5,6 @@ scr_new_state();
 // if no movement
 if(state != playerState.move) return;
 
-spd = 2;
-
 dir = point_direction(0,0,hInput,vInput);
 moveX = lengthdir_x(spd, dir);
 moveY = lengthdir_y(spd, dir);
