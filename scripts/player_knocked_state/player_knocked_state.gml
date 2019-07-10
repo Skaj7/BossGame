@@ -16,3 +16,5 @@ if(moveX == 0 && moveY == 0){
 	
 x += moveX;
 y += moveY;
+
+scr_sprite_update();

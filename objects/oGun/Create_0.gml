@@ -1,3 +1,4 @@
-/// @desc vars
-firingDelay = 0;
-recoil = 0;
+event_inherited();
+
+gunXOffset = 0;
+gunYOffset = 0;

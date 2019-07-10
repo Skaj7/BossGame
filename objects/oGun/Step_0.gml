@@ -1,4 +1,6 @@
 /// @desc firing delay
+event_inherited();
+
 firingDelay -= 1;
 recoil = max(0,recoil-1);
 if(mouse_check_button(mb_left) && firingDelay < 0){
@@ -16,9 +18,3 @@ if(mouse_check_button(mb_left) && firingDelay < 0){
 	}
 }
 
-
-if(mouse_angle > 90 && mouse_angle < 270){
-	image_yscale = -1;
-}else{
-	image_yscale = 1;	
-}

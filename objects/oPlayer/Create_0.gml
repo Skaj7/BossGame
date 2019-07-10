@@ -9,11 +9,16 @@ states_array[playerState.knocked] = player_knocked_state;
 spd = 2;
 image_speed = 0.5;
 
+gun = oGun;
+
 hInput = 0;
 vInput = 0;
 moveX = 0;
 moveY = 0;
+
+//flags
 defenceFlag = 0;
+armedFlag = 1;
 
 //knocked state
 pixelsKnocked = 0;

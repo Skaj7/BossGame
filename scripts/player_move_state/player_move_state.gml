@@ -13,5 +13,7 @@ scr_collision();
 	
 x += moveX;
 y += moveY;
+
+if(armedFlag) scr_gun_position();
 	
 scr_sprite_update();
