@@ -34,13 +34,22 @@ if (armedFlag){
 
 image_xscale = 1;
 //set sprite
-switch(dir){
-	case 0: sprite_index = s_r; break;
-	case 45: sprite_index = s_ur; break;
-	case 90: sprite_index = s_u; break;
-	case 135: sprite_index = s_lu; if(!armedFlag) image_xscale = -1; break;
-	case 180: sprite_index = s_l; if(!armedFlag) image_xscale = -1; break;
-	case 225: sprite_index = s_ld; if(!armedFlag) image_xscale = -1; break;
-	case 270: sprite_index = s_d; break;
-	case 315: sprite_index = s_dr; break;
+if(0 <= mouseDir && mouseDir <= 22.5){ 
+	sprite_index = s_r;
+} else if(22.5 <= mouseDir && mouseDir <= 67.5){
+	sprite_index = s_ur;
+} else if(67.5 <= mouseDir && mouseDir <= 112.5){
+	sprite_index = s_u;
+} else if(112.5 <= mouseDir && mouseDir <= 157.5){
+	sprite_index = s_lu; if(!armedFlag) image_xscale = -1;
+} else if(157.5 <= mouseDir && mouseDir <= 202.5){
+	sprite_index = s_l; if(!armedFlag) image_xscale = -1;
+} else if(202.5 <= mouseDir && mouseDir <= 247.5){
+	sprite_index = s_ld; if(!armedFlag) image_xscale = -1;
+} else if(247.5 <= mouseDir && mouseDir <= 292.5){
+	sprite_index = s_d;
+} else if(292.5 <= mouseDir && mouseDir <= 337.5){
+	sprite_index = s_dr;
+} else if(337.5 <= mouseDir && mouseDir <= 360){
+	sprite_index = s_r;
 }		

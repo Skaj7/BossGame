@@ -10,6 +10,8 @@ spd = 2;
 image_speed = 0.5;
 
 gun = oGun;
+mouseDir = 0;
+
 
 hInput = 0;
 vInput = 0;

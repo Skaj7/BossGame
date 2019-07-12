@@ -3,10 +3,11 @@ if(pixelsKnocked <= 0){
 	pixelsKnocked = 0;
 	state = playerState.idle;	
 }
-pixelsKnocked -= spd;
+localSpeed = spd * 0.8;
+pixelsKnocked -= localSpeed;
 dir = point_direction(0,0,hInput,vInput);
-moveX = lengthdir_x(spd, hitAngle);
-moveY = lengthdir_y(spd, hitAngle);
+moveX = lengthdir_x(localSpeed, hitAngle);
+moveY = lengthdir_y(localSpeed, hitAngle);
 
 scr_collision();
 if(moveX == 0 && moveY == 0){

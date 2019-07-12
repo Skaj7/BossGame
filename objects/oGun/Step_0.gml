@@ -17,4 +17,3 @@ if(mouse_check_button(mb_left) && firingDelay < 0){
 		state = playerState.knocked;
 	}
 }
-
