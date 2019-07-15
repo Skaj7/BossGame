@@ -69,9 +69,23 @@
             "value": "0.1",
             "varName": "zoom_spd",
             "varType": 0
+        },
+        {
+            "id": "0a57c4d4-0e6c-4458-b30f-c94bdf44c990",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "changeFlag",
+            "varType": 3
         }
     ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

@@ -12,5 +12,8 @@ var cam_height = camera_get_view_height(cam_id);
 camera_set_view_pos(cam_id, x-cam_width/2, y-cam_height/2);
 
 var mouse_input = mouse_wheel_down()-mouse_wheel_up();
-target_zoom += mouse_input;
-target_zoom = clamp(target_zoom, 0.5, 3);
+if(mouse_input != 0){
+	target_zoom += mouse_input/2;
+	target_zoom = clamp(target_zoom, 0.5, 3);
+	changeFlag = true;
+}
