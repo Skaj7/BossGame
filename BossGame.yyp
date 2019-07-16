@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "23c02a16-c6f4-4ba2-90a9-113b7b347694",
+            "Value": {
+                "id": "c5d34699-eb64-4986-82a9-13e54b826721",
+                "resourcePath": "shaders\\sh_water\\sh_water.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "245267e9-3741-4941-aeb6-ea3a9591e32b",
             "Value": {
                 "id": "7fe93df1-a31d-4d10-b61a-ef225b7d288a",
@@ -236,6 +244,14 @@
                 "id": "c862cd19-42e4-4568-b4ff-f989e2858949",
                 "resourcePath": "rooms\\rMenu\\rMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4615b390-6daf-4885-9663-118df05df486",
+            "Value": {
+                "id": "47b9e4ee-af4a-4b57-a5da-5037ad860085",
+                "resourcePath": "sprites\\spr_water\\spr_water.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +463,14 @@
             }
         },
         {
+            "Key": "8fadd7ce-1dc9-4604-9fd4-304af77e28f4",
+            "Value": {
+                "id": "7e30195e-ddca-42fb-ad90-619df8ac3ba5",
+                "resourcePath": "tilesets\\ts_water\\ts_water.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "92855e40-1edb-4bea-9c7d-160b3c50dbd3",
             "Value": {
                 "id": "7d6e4b48-0128-4d3f-bcff-f542bc8460cd",
@@ -471,6 +495,14 @@
             }
         },
         {
+            "Key": "980d990a-bbd6-4e87-87f4-93196cdea956",
+            "Value": {
+                "id": "eb3a3e22-6eaa-4419-bf89-fc89bb4b4f2b",
+                "resourcePath": "views\\980d990a-bbd6-4e87-87f4-93196cdea956.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "988454cd-012f-48dd-a9fd-62dfe67791a1",
             "Value": {
                 "id": "062438ce-9c87-4f16-aa05-f37635419a9a",
@@ -484,6 +516,14 @@
                 "id": "2433e1cb-fd64-43b9-a376-488aeadf1443",
                 "resourcePath": "scripts\\player_move_state\\player_move_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a0480bfe-1962-44bf-94b3-d1b9f9230249",
+            "Value": {
+                "id": "684c8ae8-fa8c-4ce7-b751-02dbfe7b4b96",
+                "resourcePath": "sprites\\spr_ground\\spr_ground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -596,6 +636,14 @@
                 "id": "f05565ef-4e6d-45da-bae8-77b83980ebd1",
                 "resourcePath": "sprites\\sGrass\\sGrass.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c058034a-88d4-4122-a398-5380a707fc6e",
+            "Value": {
+                "id": "ef442396-5536-43a5-98cf-0b6afae5e418",
+                "resourcePath": "tilesets\\ts_ground\\ts_ground.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

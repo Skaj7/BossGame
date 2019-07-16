@@ -1,8 +1,8 @@
 {
-    "id": "04e88266-d87d-411d-b7d2-a780557bf40f",
+    "id": "8fadd7ce-1dc9-4604-9fd4-304af77e28f4",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tileset1",
+    "name": "ts_water",
     "auto_tile_sets": [
         
     ],

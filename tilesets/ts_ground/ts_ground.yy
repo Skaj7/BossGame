@@ -1,23 +1,31 @@
 {
-    "id": "04e88266-d87d-411d-b7d2-a780557bf40f",
+    "id": "c058034a-88d4-4122-a398-5380a707fc6e",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tileset1",
+    "name": "ts_ground",
     "auto_tile_sets": [
         
     ],
     "macroPageTiles": {
         "SerialiseData": null,
-        "SerialiseHeight": 0,
-        "SerialiseWidth": 0,
+        "SerialiseHeight": 3,
+        "SerialiseWidth": 3,
         "TileSerialiseData": [
-            
+            0,
+            0,
+            0,
+            0,
+            10,
+            10,
+            0,
+            10,
+            10
         ]
     },
     "out_columns": 7,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
-    "spriteId": "4615b390-6daf-4885-9663-118df05df486",
+    "spriteId": "a0480bfe-1962-44bf-94b3-d1b9f9230249",
     "sprite_no_export": true,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "tile_animation": {
