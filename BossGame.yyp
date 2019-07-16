@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "7b38f65d-1c21-463d-99a5-9e8d4ae471a6",
+            "Value": {
+                "id": "8186c350-6e1b-4990-a063-381fad36d0e3",
+                "resourcePath": "sprites\\spr_trans\\spr_trans.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7b9b20cf-7746-4799-9c7a-69b1e7d3555e",
             "Value": {
                 "id": "d0ebecf4-7257-4414-9f55-3049e7aeeafd",
@@ -612,6 +620,14 @@
                 "id": "36ee4a1b-8194-4fcd-bd72-7d27063afc83",
                 "resourcePath": "objects\\oWall\\oWall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb1bdbe5-2808-48c4-844c-d1ae4b2387a6",
+            "Value": {
+                "id": "4a264efd-07a0-414c-b539-21c790bbc43d",
+                "resourcePath": "shaders\\sh_transition\\sh_transition.yy",
+                "resourceType": "GMShader"
             }
         },
         {
